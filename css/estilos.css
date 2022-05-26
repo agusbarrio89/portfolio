@@ -15,6 +15,11 @@ body {
     background-size: 100%;
 
 }
+#index{
+    background-image: url("../images/fondo-contacto.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 .proyecto img {
     height: 208px;
 }
@@ -136,8 +141,21 @@ footer a {
     border-radius: 50%;
     
 }
-
-
+#index .div-cohete{
+    height: 410px;
+}#index .cohete{
+    height: 400px;
+}
+#index .cohete:hover{
+    height: 410px;
+}
+#index .input-home p{
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
 .fa-whatsapp {
     font-size: 30px;
     color: white;
@@ -151,10 +169,10 @@ footer a {
     font-size: 30px;  
 }
 @media (max-width: 750px) {/* Para mobile */
-    #inicio, #contacto #proyectos{
+    #index, #contacto #proyectos{
         background-image: url(../images/fondo-proyectos.png);
     }
-    #inicio .input-home p {
+    #index .input-home p {
         color: #E20000;
         border: 1px solid #E20000;
     }
