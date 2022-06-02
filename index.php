@@ -49,7 +49,7 @@
     <main class="container">
         <div class="row">
             <div class=" col-12 mt-4 text-center div-cohete">
-                <a href="proyectos.html"><img src="images/cohete.svg" class="cohete"></a>
+                <a href="proyectos.php"><img src="images/cohete.svg" class="cohete"></a>
 
             </div>
         </div>
@@ -61,7 +61,7 @@
             </div>
             <div class="row">
                 <div class="col-12 text-center">
-                    <a href="proyectos.html" class=" btn btn-blanco">mira en que puedo ayudarte</a>
+                    <a href="proyectos.php" class=" btn btn-blanco">mira en que puedo ayudarte</a>
                 </div>
             </div>
 

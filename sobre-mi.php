@@ -50,7 +50,7 @@
                     <h1 class="mt-sm-4 pb-sm-4"> Sobre mi</h1>
                     <p class="pb-sm-5 sobre-mi">Apasionado por la tecnología, la gestion y el manejo de equipos, soy
                         ecommerce manager en Rossetti deportes:</p>
-                    <a href="contacto.html" class="btn btn-rojo" target="_blank">enviar mensaje</a>
+                    <a href="contacto.php" class="btn btn-rojo" target="_blank">enviar mensaje</a>
                 </div>
                 <div class="col-12 col-sm-3 mt-4 offset-sm-2">
                     <img src="images/foto_agu_porfolio.jpeg" alt="agustin-barrio" title="agustin barrio"
