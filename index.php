@@ -10,10 +10,12 @@
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Contacto</title>
+    <title>inicio</title>
 </head>
 
-<body id="contacto">
+
+
+<body id="index">
     <header class="container">
         <nav class="navbar navbar-expand-md mb-4">
             <div class="container-fluid">
@@ -24,16 +26,17 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2 ">
                         <li class="nav-item">
-                            <a class="nav-link  px-4 py-1 px-sm-4" aria-current="page" href="index.html">Inicio</a>
+                            <a class="nav-link active px-4 py-1 px-sm-4" aria-current="page"
+                                href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 py-1 px-sm-4" href="sobre-mi.html">Sobre mí</a>
+                            <a class="nav-link px-4 py-1 px-sm-4" href="sobre-mi.php">Sobre mí</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 py-1 px-sm-4" href="proyectos.html">Proyectos</a>
+                            <a class="nav-link px-4 py-1 px-sm-4" href="proyectos.php">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active px-4 py-1 px-sm-4" href="contacto.html">Contacto</a>
+                            <a class="nav-link px-4 py-1 px-sm-4" href="contacto.php">Contacto</a>
                         </li>
                     </ul>
                     <div class="d-flex">
@@ -43,44 +46,27 @@
             </div>
         </nav>
     </header>
-     <main class="container">
+    <main class="container">
         <div class="row">
-            <div class="col-12 mt-3 mb-5">
-                <h1>Contacto</h1>
+            <div class=" col-12 mt-4 text-center div-cohete">
+                <a href="proyectos.html"><img src="images/cohete.svg" class="cohete"></a>
+
             </div>
         </div>
-    
-    <div class="row">
-        <div class="col-12 col-sm-6 ">
-            <p>te invito a que te contactes enviándome un mensaje o bien por whatsapp</p>
-        </div>
-        <div class="col-12 col-sm-6 ">
-            <form action="" method="post">
-                <div class="mb-3">
-                    <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="form-control">
+        <div class="row">
+            <div class="col-12 col-sm-6 my-4 mt-sm-5 offset-sm-3 mb-3 text-center ">
+                <div class="input-home">
+                    <p>Bienvenid@ a mi sitio web sobre gestion de paginas web.</p>
                 </div>
-                <div class="mb-3">
-                    <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo" class="form-control">
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="proyectos.html" class=" btn btn-blanco">mira en que puedo ayudarte</a>
                 </div>
-                <div class="mb-3">
-                    <input type="tel" name="txtTelefono/watsapp" id="txtTelefono/watsapp" placeholder="Telefono/watsapp"
-                        class="form-control">
-                </div>
-                <div class="mb-3">
-                    <textarea name="txtMensaje" id="txtMensaje" placeholder="Escribe aqui tu Mensaje"
-                        class="form-control"></textarea>
-                </div>
-                <div class="mb-5">
-                    <button type="submit" id="btnEnviar" name="btnEnviar" class="btn btn-blanco px-4">ENVIAR</button>
-                </div>
+            </div>
 
-            </form>
         </div>
 
-    </div>
-
-
-    </div>
     </main>
     <footer class="container mt-5">
         <div class="row">
@@ -100,7 +86,7 @@
         <a href="https://api.whatsapp.com/send?phone=0123456789">
             <i class="fa-brands fa-whatsapp"></i></a>
     </div>
-</body>
 
+</body>
 
 </html>
